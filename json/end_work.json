@@ -1,0 +1,31 @@
+{
+   "setups": [],
+   "productions": {
+      "WO:181056-OP1": {
+         "machines": {
+            "CITIZEN-1": {
+               "operator-hours": "2.0",
+               "suggested-allocation": "2.7",
+               "machine-hours": "8.12",
+               "good-units": "2102"
+            },
+            "CITIZEN-2": {
+               "operator-hours": "2.0",
+               "suggested-allocation": "2.7",
+               "machine-hours": "8.12",
+               "good-units": "2027"
+            }
+         }
+      },
+      "WO:182895-OP1": {
+         "machines": {
+            "CITIZEN-3": {
+               "operator-hours": "4.0",
+               "suggested-allocation": "2.6",
+               "machine-hours": "8",
+               "good-units": "1379"
+            }
+         }
+      }
+   }
+}
