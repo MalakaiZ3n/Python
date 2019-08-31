@@ -12,7 +12,8 @@ print('What a wonderful year to be alive right now. Thanks!')
 
 # ask user to guess age
 myage = input('Do you think you can guess my age? - enter a number: ')
-print("You are very observant. I am",myage, ",and I plan to be forever young.")
+print("You are very observant. I am", myage,
+      ",and I plan to be forever young.")
 
 # do math to calculate when chatbot will be 100
 myage = int(myage)
@@ -30,8 +31,8 @@ print('Interesting. I wonder if that is good for your health')
 
 # animal conversation
 animal = input('My favorite animal is a giraffe. What is yours?: ')
-print(animal,"?! I don't like them.")
-print('I wonder if a', animal, 'likes to eat', food,'?')
+print(animal, "?! I don't like them.")
+print('I wonder if a', animal, 'likes to eat', food, '?')
 
 # conversation about feelings
 feeling = input('How are you feeling today?: ')
@@ -41,5 +42,5 @@ print('I understand. Thanks for sharing')
 
 # goodbye
 print('It has been a long day')
-print('I am too tire to talk. We can chat again later.')
+print('I am too tired to talk. We can chat again later.')
 print('Goodbye', name, 'I liked chatting with you')
