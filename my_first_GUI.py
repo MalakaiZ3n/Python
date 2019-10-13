@@ -1,3 +1,5 @@
+# my first GUI program
+
 from tkinter import *
 
 window = Tk()
@@ -9,7 +11,7 @@ window.title('My First GUI')
 def hello_function():
     print('Hello World')  # prints to Shell
     # change display widget to show this text
-    display_area.config(text="Hello, World", fg="yellow", bg='black')
+    display_area.config(text="Hello, World", fg="yellow", bg="black")
 
 
 # adding a button widget
